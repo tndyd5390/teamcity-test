@@ -8,7 +8,7 @@ public class TeamcityController {
 
   @GetMapping("/test")
   public String test(){
-    System.out.println("tes
+    System.out.println("test");
     return "test";
   }
 }
