@@ -9,6 +9,7 @@ public class TeamcityController {
   @GetMapping("/test")
   public String test(){
     System.out.println("test");
+    System.out.println("fuck");
     return "test";
   }
 }
